@@ -1,0 +1,18 @@
+{
+  "name": "code_challenges",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha **/**.spec.js",
+    "build": "npx -p typescript tsc",
+    "watch": "npx -p typescript tsc -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3"
+  }
+}
