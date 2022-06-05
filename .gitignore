@@ -1,3 +1,4 @@
-challenges/**/*.js
-challenges/**/*.js.map
+vendors/**/index.js
+vendors/**/index.js.map
 node_modules
+.DS_Store

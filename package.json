@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha **/**.spec.js",
+    "test-no-build": "mocha **/**.spec.js",
+    "test": "npm run build && mocha **/**.spec.js",
     "build": "npx -p typescript tsc",
     "watch": "npx -p typescript tsc -w"
   },

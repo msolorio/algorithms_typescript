@@ -6,8 +6,10 @@
     "lib": ["es2020"],
     "module": "commonjs",
     "target": "es2020",
-    
+    "moduleResolution": "node",
     "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": false,
     "sourceMap": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
