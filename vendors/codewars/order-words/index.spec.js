@@ -1,8 +1,6 @@
 const { expect } = require('chai');
 const orderWords = require('./index.js');
 
-console.log('hello from index.test.js');
-
 describe('orderWords', () => {
   it('0 - should return a string', () => {
     expect(orderWords('this1 is2 a3 test4')).to.be.a('string');
