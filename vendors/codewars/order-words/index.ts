@@ -27,3 +27,5 @@ function orderWords(words: string) {
 }
 
 module.exports = orderWords;
+
+export {}

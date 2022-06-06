@@ -28,3 +28,5 @@ const selectionSort = function(arr: number[]) {
 }
 
 module.exports = selectionSort
+
+export {}

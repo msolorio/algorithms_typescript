@@ -84,3 +84,4 @@ function twoSum(nums: number[], target: number): number[] {
 
 // const result = twoSum([1, 2, 3, 4, 5], 55)
 // console.log('result ==>', result)
+export {}

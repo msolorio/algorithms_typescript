@@ -45,3 +45,5 @@ const bubbleSort = function(arr: number[]): number[] {
 }
 
 module.exports = bubbleSort
+
+export {}
