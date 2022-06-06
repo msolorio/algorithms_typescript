@@ -1,7 +1,7 @@
 const { expect } = require('chai');
 const selectionSort = require('./index.js');
 
-describe('selectionSort', () => {
+describe('brilliant/selectionSort - selectionSort', () => {
   it('0 - should return a sorted array', () => {
     expect(selectionSort([3, 2, 1])).to.deep.equal([1, 2, 3]);
   });

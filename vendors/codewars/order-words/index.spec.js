@@ -1,7 +1,7 @@
 const { expect } = require('chai');
 const orderWords = require('./index.js');
 
-describe('orderWords', () => {
+describe('codewars/order-words - orderWords', () => {
   it('0 - should return a string', () => {
     expect(orderWords('this1 is2 a3 test4')).to.be.a('string');
   });

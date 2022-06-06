@@ -4,7 +4,7 @@ const {
   insertionSort
 } = require('./index.js');
 
-describe('insertItem', () => {
+describe('educative/insertionSort - insertItem', () => {
   it('0 - should insert item in correct place', () => {
     expect(insertItem([1, 2, 4], 3)).to.deep.equal([1, 2, 3, 4])
   })
@@ -22,7 +22,7 @@ describe('insertItem', () => {
   })
 })
 
-describe('insertionSort', () => {
+describe('educative/insertionSort - insertionSort', () => {
   it('0 - should return a sorted array', () => {
     expect(insertionSort([5, 4, 3])).to.deep.equal([3, 4, 5]);
   });

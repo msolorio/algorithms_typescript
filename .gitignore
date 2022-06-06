@@ -1,6 +1,6 @@
 vendors/**/index.js
 vendors/**/index.js.map
-vendors/**/index*.js
-vendors/**/index*.js.map
+vendors/**/index[0-9].js
+vendors/**/index[0-9].js.map
 node_modules
 .DS_Store

@@ -1,7 +1,7 @@
 const { expect } = require('chai');
 const selectionSort = require('./index.js');
 
-describe('selectionSort', () => {
+describe('educative/selectionSort - selectionSort', () => {
   it('0 - should return a sorted array', () => {
     expect(selectionSort([5, 4, 3])).to.deep.equal([3, 4, 5]);
   });

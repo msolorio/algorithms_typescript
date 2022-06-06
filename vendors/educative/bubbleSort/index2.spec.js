@@ -1,7 +1,7 @@
 const { expect } = require('chai');
 const bubbleSort2 = require('./index2.js');
 
-describe('bubbleSort2', () => {
+describe('educative/bubbleSort - bubbleSort2', () => {
   it('0 - should return a sorted array', () => {
     expect(bubbleSort2([5, 4, 3])).to.deep.equal([3, 4, 5]);
   });
