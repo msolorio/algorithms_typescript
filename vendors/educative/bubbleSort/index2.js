@@ -1,4 +1,14 @@
 "use strict";
+/*
+Time complexity
+Worse case / Average case
+O(n^2)
+If array is in exact reverse order, for each item (n), make on average n/2 comparisons.
+
+Best case
+O(n)
+If array is already sorted, make n number of comparisons.
+*/
 Object.defineProperty(exports, "__esModule", { value: true });
 const swap = function (arr, idxA, idxB) {
     const temp = arr[idxA];
