@@ -8,6 +8,7 @@ Worst Case
 If all of the items end up on 1 side of the pivot every time, for each partition (n times) compare against n items.
 O(n^2)
 
+This is my own implementation of the quick sort inspired by lessons on Brilliant. It uses extra space complexity because we're creating extra arrays within the loop and in the merge.
 */
 
 const quickSort = function(arr: number[]): number[] {
