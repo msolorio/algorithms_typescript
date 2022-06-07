@@ -1,3 +1,12 @@
+/*
+Merge sort
+Recursively split the array into halves, merge the halves into sorted subarrays, and merge the subarrays into a sorted array.
+
+Time Complexity
+O(n log(n))
+- Come back to this.
+*/
+
 // merge - Merges 2 sorted arrays
 const merge = function(leftArr: number[], rightArr: number[]): number[] {
   let result = []
@@ -13,9 +22,9 @@ const merge = function(leftArr: number[], rightArr: number[]): number[] {
   return [ ...result, ...leftArr, ...rightArr ]
 }
 
-
+// Splits items in halves, sorts halves, and merges halves.
 const mergeSort = function(arr: number[]): number[] {
-  if (arr.length <= 1) return arr
+  if (arr.length === 1) return arr
 
   const midIdx = Math.floor(arr.length / 2)
   const leftArr = arr.slice(0, midIdx)
