@@ -2,7 +2,7 @@ const { expect } = require('chai');
 const {
   merge,
   mergeSort
-} = require('./index.js');
+} = require('./index2.js');
 
 describe('educative/mergeSort - merge', () => {
   it('0 - should merge 2 sorted arrays into 1 sorted array', () => {
