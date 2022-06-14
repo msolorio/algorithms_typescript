@@ -41,4 +41,12 @@ describe('educative/quickSort - quickSort', () => {
   it('9 - should return a sorted array', () => {
     expect(quickSort([0, 0, 0])).to.deep.equal([0, 0, 0]);
   });
+
+  it('9 - should return a sorted array', () => {
+    expect(quickSort([5])).to.deep.equal([5]);
+  });
+
+  it('9 - should return a sorted array', () => {
+    expect(quickSort([])).to.deep.equal([]);
+  });
 });

@@ -10,7 +10,7 @@ const quickSort = function(arr: number[], startIdx?: number, endIdx?: number) {
   startIdx = startIdx || 0
   endIdx = endIdx || arr.length - 1
   let pivotIdx = endIdx
-  let currentIdx = 0
+  let currentIdx = startIdx
 
   while (currentIdx < pivotIdx) {
     if (arr[currentIdx] > arr[pivotIdx]) {
