@@ -2,7 +2,7 @@ const { expect } = require('chai');
 const {
   merge,
   mergeSort
-} = require('./index2.js');
+} = require('./index.js');
 
 describe('educative/mergeSort - merge', () => {
   it('0 - should merge 2 sorted arrays into 1 sorted array', () => {
@@ -57,5 +57,9 @@ describe('educative/mergeSort - mergeSort', () => {
 
   it('5 - should return a sorted array', () => {
     expect(mergeSort([Infinity, 0, -Infinity])).to.deep.equal([-Infinity, 0, Infinity]);
+  });
+
+  it('6 - should return a sorted array', () => {
+    expect(mergeSort([8, 4, 6, 2, 7, 3, 5, 1])).to.deep.equal([1, 2, 3, 4, 5, 6, 7, 8]);
   });
 });

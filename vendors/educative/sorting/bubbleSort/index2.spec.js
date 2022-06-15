@@ -29,4 +29,12 @@ describe('educative/bubbleSort - bubbleSort2', () => {
   it('5 - should return a sorted array', () => {
     expect(bubbleSort2([-Infinity, 0, -5])).to.deep.equal([-Infinity, -5, 0]);
   });
+
+  it('5 - should return a sorted array', () => {
+    expect(bubbleSort2([1])).to.deep.equal([1]);
+  });
+
+  it('5 - should return a sorted array', () => {
+    expect(bubbleSort2([])).to.deep.equal([]);
+  });
 });
